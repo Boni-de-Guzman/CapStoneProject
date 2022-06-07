@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="flavors.js" async></script>
+  <title>Ara's Fruit Hut</title>
+</head>
+<body>
+  
+  <header class="head">
+    <span class="log"><a href="register.html"><img src ="https://i.ibb.co/cxM8Bbb/av.png" height="50px" width="50px"></a></span>
+    <a href="home.html"><img src ="https://i.ibb.co/y6L6kr3/logo.png" height="200px" width="500px" ></a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+   <ul class="menu">
+      <li><a href="home.html">HOME</a></li>
+      <li><a href="flavors.html">FLAVORS</a></li>
+      <li><a href="reviews.html">REVIEWS</a></li>
+      <li><a href="ourStory.html">OUR STORY</a></li>
+    </ul>
+    <input type="text" class="form-control" placeholder="Search..." name="search" id="search-bar">
+
+    <div id="cart-info" class="nav-info cart-info">
+      <span class="cart-info__icon" ><i class="fas fa-shopping-cart"></i></span>
+      <p><span id="item-count">0 </span> items
+      </p>
+    </div>
+  </header>
+
+  <section id = "result"></section>
+
+<div class="background1">
+<section class="loremText">
+  <h1>Our Story</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh sit amet commodo nulla facilisi. Ultrices gravida dictum fusce ut. At tellus at urna condimentum mattis pellentesque. Dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida. Non curabitur gravida arcu ac tortor dignissim convallis aenean et. Risus pretium quam vulputate dignissim suspendisse. Morbi tristique senectus et netus et malesuada fames ac. Volutpat ac tincidunt vitae semper quis lectus nulla at volutpat. Lorem dolor sed viverra ipsum nunc aliquet bibendum. Id venenatis a condimentum vitae sapien pellentesque. Nibh ipsum consequat nisl vel pretium lectus quam. Pellentesque massa placerat duis ultricies lacus. Sem integer vitae justo eget magna fermentum iaculis eu non. Ac odio tempor orci dapibus ultrices in iaculis nunc sed</p>
+  <p>Enim sed faucibus turpis in eu. Arcu cursus euismod quis viverra nibh cras. Commodo quis imperdiet massa tincidunt nunc pulvinar. Tortor pretium viverra suspendisse potenti nullam ac. Viverra nibh cras pulvinar mattis nunc sed. Enim diam vulputate ut pharetra sit amet aliquam. Aliquam nulla facilisi cras fermentum odio eu feugiat pretium. Nulla pharetra diam sit amet nisl. Pharetra sit amet aliquam id diam maecenas ultricies. Tristique senectus et netus et</p>
+  <button class="trigger">Learn more...</button>
+  <div class="modal1">
+    <section class="modal1-content">
+        <span class="close-button">&times;</span>
+        <img src = "https://i.ibb.co/fpWFk50/me.jpg" height="250px" width="500px">
+        <p>Hello, my name is Ara. I am currrently living in Las Vegas. For a short period of time, doing the bootcamp and studying different programming languages, I learned alot... but there's still more studying to do.</p>
+        <p>I'm glad I am doing this bootcamp because it helps me gain more knowledge and become a proficient developer..... 
+          (hopefully someday)  </p>
+    </section>
+</div>
+  <img src ="https://i.ibb.co/kyczkGj/yrtytyr.png" height="300px" class="picture" >
+<section>
+
+
+
+ </div>
+
+
+
+ <footer>
+  <ul class="menu2">
+    <li><a href="follow.html">FOLLOW US</a></li>
+    <li><a href="contact">CONTACT US</a></li>
+    </ul>
+</footer>
+
+<script>
+  const modal1 = document.querySelector(".modal1");
+const trigger = document.querySelector(".trigger");
+const closeButton = document.querySelector(".close-button");
+
+function toggleModal1() {
+    modal1.classList.toggle("show-modal1");
+}
+
+function windowOnClick(event) {
+    if (event.target === modal1) {
+        toggleModal1();
+    }
+}
+
+trigger.addEventListener("click", toggleModal1);
+closeButton.addEventListener("click", toggleModal1);
+window.addEventListener("click", windowOnClick);
+</script>
+  
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="main.js"></script>
+  <script src="search.js"></script>
+  
+  </body>
+  </html>

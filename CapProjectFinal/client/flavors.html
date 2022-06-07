@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="flavors.js" async></script>
+  <title>Ara's Fruit Hut</title>
+</head>
+<body>
+  
+  <header class="head">
+    <span class="log"><a href="register.html"><img src ="https://i.ibb.co/cxM8Bbb/av.png" height="50px" width="50px"></a></span>
+    <a href="home.html"><img src ="https://i.ibb.co/y6L6kr3/logo.png" height="200px" width="500px" ></a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+   <ul class="menu">
+      <li><a href="home.html">HOME</a></li>
+      <li><a href="flavors.html">FLAVORS</a></li>
+      <li><a href="reviews.html">REVIEWS</a></li>
+      <li><a href="ourStory.html">OUR STORY</a></li>
+    </ul>
+    <input type="text" class="form-control" placeholder="Search..." name="search" id="search-bar">
+
+    <div id="cart-info" class="nav-info cart-info">
+      <span class="cart-info__icon" ><i class="fas fa-shopping-cart"></i></span>
+      <p><span id="item-count">0 </span> items
+      </p>
+    </div>
+  </header>
+ 
+
+<section id = "result"></section>
+
+<section class="cart" id="cart">
+  <h1 class="section-header">CART</h1>
+  <div class="cart-row">
+    <span class="cart-item cart-header cart-column">ITEM</span>
+    <span class="cart-price cart-header cart-column">PRICE</span>
+    <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+  </div>
+  <div class="cart-items">
+  </div>
+  <div class="cart-total">
+    <strong class="cart-total-title">Total</strong>
+    <span class="cart-total-price">$0</span>
+  </div>
+
+  <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+</section>
+
+
+
+
+<div class="container1">
+  <div class="products">
+   
+    <div class="product">
+      <img src="https://i.ibb.co/jW8fCxL/apple.png" class="product__image">
+      <h3 class="product-title">Apple Soda</h3>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+      <div class="shop-item-details">
+        <h3 class="product__price">$1.99</h3>
+        <button class="btn btn--primary ADD_TO_CART">Add to Cart</button>
+      </div>
+   </div>
+
+<div class="product">
+      <img src="https://i.ibb.co/Gcmwkwb/watermelon.png" class="product__image">
+      <h3 class="product-title">Watermelon Soda</h3>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+      <div class="shop-item-details">
+        <h3 class="product__price">$1.99</h3>
+        <button class="btn btn--primary ADD_TO_CART">Add to Cart</button>
+      </div>
+</div>
+
+    <div class="product">
+      <img src="https://i.ibb.co/x5PZsgg/strawberry.png" class="product__image">
+      <h3 class="product-title">Strawberry Soda</h3>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+      <div class="shop-item-details">
+        <h3 class="product__price">$1.99</h3>
+        <button class="btn btn--primary ADD_TO_CART">Add to Cart</button>
+      </div>
+ </div>
+
+ <div class="product">
+      <img src="https://i.ibb.co/RTgqc4Z/grape.png" class="product__image">
+      <h3 class="product-title">Grape Soda</h3>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+      <div class="shop-item-details">
+        <h3 class="product__price">$1.99</h3>
+        <button class="btn btn--primary ADD_TO_CART">Add to Cart</button>
+      </div>
+</div>
+
+    <div class="product">
+      <img src="https://i.ibb.co/x7kct31/pineapple.png" class="product__image">
+      <h3 class="product-title">Pineapple Soda</h3>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+      <div class="shop-item-details">
+        <h3 class="product__price">$1.99</h3>
+        <button class="btn btn--primary ADD_TO_CART">Add to Cart</button>
+      </div>
+  </div>
+    
+  <div class="product">
+      <img src="https://i.ibb.co/2Kzw1T8/orange.png" class="product__image">
+      <h3 class="product-title">Orange Soda</h3>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+      <div class="shop-item-details">
+        <h3 class="product__price">$1.99</h3>
+        <button class="btn btn--primary ADD_TO_CART">Add to Cart</button>
+      </div>
+ </div>
+
+ <div class="product">
+  <img src="https://i.ibb.co/Tv1CM2R/calamansi.png" class="product__image">
+  <h3 class="product-title">Calamansi Soda</h3>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+  <div class="shop-item-details">
+    <h3 class="product__price">$1.99</h3>
+    <button class="btn btn--primary ADD_TO_CART">Add to Cart</button>
+  </div>
+</div>
+
+<div class="product">
+  <img src="https://i.ibb.co/rMDksBM/guavapng.png" class="product__image">
+  <h3 class="product-title">Guava Soda</h3>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+  <div class="shop-item-details">
+    <h3 class="product__price">$1.99</h3>
+    <button class="btn btn--primary ADD_TO_CART">Add to Cart</button>
+  </div>
+</div>
+
+<div class="product">
+  <img src="https://i.ibb.co/LtR112Y/passion.png" class="product__image">
+  <h3 class="product-title">Passion Fruit Soda</h3>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+  <div class="shop-item-details">
+    <h3 class="product__price">$1.99</h3>
+    <button class="btn btn--primary ADD_TO_CART">Add to Cart</button>
+  </div>
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+<script> 
+filterSelection('all')
+function filterSelection(c) {
+var x, i;
+x = document.getElementsByClassName("product");
+if (c == "all") c = "";
+for (i = 0; i < x.length; i++) {
+  w3RemoveClass(x[i], "show");
+  if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+}
+}
+
+function w3AddClass(element, name) {
+var i, arrl, arr2;
+arr1 = element.className.split(" ");
+arr2 = name.split(" ");
+for (i = 0; i < arr2.length; i++) {
+  if (arr1.indexOf(arr2[i]) == -1) { element.className += " " + arr2[i]; }
+}
+}
+
+function w3RemoveClass(element, name) {
+var i, arr1, arr2;
+arr1 = element.className.split(" ");
+arr2 = name.split(" ");
+for (i = 0; i < arr2.length; i++) {
+  while (arr1.indexOf(arr2[i]) > -1) {
+    arr1.splice(arr1.indexOf(arr2[i]), 1);
+  }
+}
+element.className = arr1.join(" ");
+}
+
+
+var btnContainer = document.getElementById("filterButtons");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+btns[i].addEventListener("click", function () {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+});
+}
+</script>
+
+<footer>
+  <ul class="menu2">
+    <li><a href="follow.html">FOLLOW US</a></li>
+    <li><a href="contact">CONTACT US</a></li>
+    </ul>
+</footer>
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="main.js"></script>
+<script src="search.js"></script>
+
+</body>
+</html>

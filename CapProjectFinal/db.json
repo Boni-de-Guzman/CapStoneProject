@@ -1,0 +1,18 @@
+[
+  {
+    "id": 0,
+    "name": "Klarisse",
+    "rating":5,
+    "message": "Love all the flavors"
+
+  },
+  {
+      "id": 1,
+      "name": "Marco",
+      "rating":5,
+      "message": "These are my drinks from now on"
+   
+  }
+  
+  
+]

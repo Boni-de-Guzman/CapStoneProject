@@ -1,0 +1,54 @@
+[
+    {
+    
+    "name":"Watermelon soda",
+    "image":"https://i.ibb.co/Gcmwkwb/watermelon.png",
+    "price": "$1.99"
+
+ },
+ {
+    "name":"Strawberry soda",
+    "image":"https://i.ibb.co/x5PZsgg/strawberry.png",
+    "price": "$1.99"
+    
+ },
+ {
+    "name":"Pineapple soda",
+    "image":"https://i.ibb.co/x7kct31/pineapple.png",
+    "price": "$1.99"
+
+ },
+ {
+   "name":"Grape soda ",
+   "image":"https://i.ibb.co/RTgqc4Z/grape.png",
+   "price": "$1.99"
+
+ },
+ {
+   "name":"Orange soda ",
+   "image":"https://i.ibb.co/2Kzw1T8/orange.png",
+   "price": "$1.99"
+ },
+ {
+    "name":"Apple soda ",
+    "image":"https://i.ibb.co/jW8fCxL/apple.png",
+    "price": "$1.99"
+  },
+  {
+    "name":"Calamansi soda ",
+    "image":"https://i.ibb.co/Tv1CM2R/calamansi.png",
+    "price": "$1.99"
+  },
+  {
+    "name":"Guava soda ",
+    "image":"https://i.ibb.co/rMDksBM/guavapng.png",
+    "price": "$1.99"
+  },
+  {
+    "name":"Passion Fruit soda",
+    "image":"https://i.ibb.co/LtR112Y/passion.png",
+    "price": "$1.99"
+  }
+
+ 
+]

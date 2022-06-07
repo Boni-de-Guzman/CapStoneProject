@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="flavors.js" async></script>
+  <title>Ara's Fruit Hut</title>
+</head>
+<body>
+  
+  <header class="head">
+    <span class="log"><a href="register.html"><img src ="https://i.ibb.co/cxM8Bbb/av.png" height="50px" width="50px"></a></span>
+    <a href="home.html"><img src ="https://i.ibb.co/y6L6kr3/logo.png" height="200px" width="500px" ></a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+   <ul class="menu">
+      <li><a href="home.html">HOME</a></li>
+      <li><a href="flavors.html">FLAVORS</a></li>
+      <li><a href="reviews.html">REVIEWS</a></li>
+      <li><a href="ourStory.html">OUR STORY</a></li>
+    </ul>
+    <input type="text" class="form-control" placeholder="Search..." name="search" id="search-bar">
+
+    <div id="cart-info" class="nav-info cart-info">
+      <span class="cart-info__icon" ><i class="fas fa-shopping-cart"></i></span>
+      <p><span id="item-count">0 </span> items
+      </p>
+    </div>
+  </header>
+  
+  <section id = "result"></section>
+
+
+  <div class="background2">
+  
+      <div class = "review">
+          <h1 text-align="center">Post A Review</h1><br>
+  
+        <form>
+          <label for="fullName">Your Name</label> <br>
+          <input type="text" id="name"><br><br>
+      
+          <label for="rating">Rating</label> <br>
+          <input type="radio" id="rating" value="1" name="rating">1
+          <input type="radio" id="rating" value="2" name="rating">2
+          <input type="radio" id="rating" value="3" name="rating">3
+          <input type="radio" id="rating" value="4" name="rating">4
+          <input type="radio" id="rating" value="5" name="rating">5 
+          <br>
+          <br>
+      
+          <label for="comments">Your Comments</label> <br>
+          <textarea id="message" rows="7" cols="30"></textarea><br><br>
+      
+          <input type="submit" value="Submit" id="submit">
+          <input type="reset" value="Clear">
+      </form>
+  </div>
+  
+  
+  <div class="result-review">
+      <h1> Customer Reviews</h1>
+      <section id ="reviews-container"></section>
+  </div>
+  
+</div>
+  
+  
+  
+  
+<footer>
+  <ul class="menu2">
+    <li><a href="follow.html">FOLLOW US</a></li>
+    <li><a href="contact">CONTACT US</a></li>
+    </ul>
+</footer>
+
+  
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="main.js"></script>
+<script src="search.js"></script>
+
+</body>
+</html>
